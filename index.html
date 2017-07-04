@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,minimal-ui">
+  <title>vue-reader</title>
+  <style>
+    *:focus {
+      outline: none;
+    }
+
+    html {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, .05);
+      -webkit-touch-callout: none;
+
+      -webkit-user-select: none;
+      /*background: #e9dfc7;*/
+      overflow: hidden;
+      /*position: fixed;*/
+    }
+
+    ul {
+      padding-left: 0;
+    }
+
+    li {
+      list-style: none;
+    }
+
+  </style>
+</head>
+
+<body ref="body">
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

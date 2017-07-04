@@ -1,0 +1,39 @@
+/* 重置&默认(reset&base)(tags) */
+*[hidefocus],input,textarea,a{outline:none;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+fieldset,img,html,body,iframe{border:0;}
+table{border-collapse:collapse;border-spacing:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+caption,th{font-weight:normal;font-style:normal;text-align:left;}
+em,strong{font-weight:bold;font-style:normal;}
+body,textarea,select,input,pre{font-family:arial,microsoft yahei,helvetica,sans-serif;font-size:14px;color:#555;}
+body{background:#f8f8f8;line-height:1.5em;-webkit-text-size-adjust:none;}
+a,button{cursor:pointer;}
+textarea{resize:none;overflow:auto;}
+pre{white-space:pre-wrap;}
+a{color:#333;text-decoration:none;}
+input{
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-user-modify: read-write-plaintext-only;
+}
+button {
+	-webkit-tap-highlight-color: rgba(255,255,255,0)
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after,.clearfix:before {
+  display: table;
+  content: '';
+  height:0;
+}
+.clearfix:after {
+  clear: both;
+}
+/* 布局(grids)(.g-) */
+/* 页面 */
+
