@@ -6,7 +6,7 @@
     <div class="detail-content" v-if="bookDetail">
       <div class="detail-linear">
         <header class="detail-top">
-          <router-link :to="'Home'"><i class="back"></i>
+          <router-link :to="back"><i class="back"></i>
             <h2 class="detail-title">{{bookDetail.name}}</h2>
           </router-link>
         </header>
@@ -25,7 +25,7 @@
         <div class="read-btn">
           <div>
             <button @click="loadBookText">
-              <router-link :to="'Reader'">开始阅读</router-link>
+              <router-link :to="{path:'/reader/'+ bookDetail.id}">开始阅读</router-link>
             </button>
           </div>
           <div>
@@ -89,7 +89,7 @@
     },
     created() {
       this.loading = true
-      this.getBookDetail(this.curBookDetailId)
+      this.getBookDetail(this.$route.params.id)
     },
     methods: {
       getBookDetail(bookId) {
@@ -106,6 +106,9 @@
         }
         this.$store.state.curBookContentId = this.$store.state.curBookDetailId
         this.$store.state.bar = false
+      },
+      back() {
+        this.$router.go(-1)
       }
     },
     computed: {

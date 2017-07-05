@@ -1,7 +1,7 @@
 <template>
   <div class="top-nav" v-show="bar">
     <div class="icon-back">
-      <router-link :to="'BookDetail'"></router-link>
+      <a href="" @click="back"></a>
     </div>
     <div class="nav-title">返回书架</div>
   </div>
@@ -10,6 +10,11 @@
 <script type="text/ecmascript-6">
   import {mapState} from 'vuex'
   export default {
+    methods: {
+      back() {
+        this.$router.go(-1)
+      }
+    },
     computed: {
       ...mapState([
         'bar'

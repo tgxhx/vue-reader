@@ -8,6 +8,7 @@ import Home from '../components/Home.vue'
 Vue.use(Router)
 
 export default new Router({
+  // mode: 'history',
   routes: [
     {
       path: '/',
@@ -15,23 +16,23 @@ export default new Router({
     },
     {
       path: '/home',
-      name: 'Home',
-      component: Home
+      name: 'home',
+      component: resolve => require(['../components/Home.vue'],resolve)
     },
     {
-      path: '/reader',
-      name: 'Reader',
-      component: Reader
+      path: '/reader/:id',
+      name: 'reader',
+      component: resolve => require(['@/components/Reader'],resolve)
     },
     {
-      path: '/bookdetail',
-      name: 'BookDetail',
-      component: BookDetail
+      path: '/bookdetail/:id',
+      name: 'bookdetail',
+      component: resolve => require(['@/components/BookDetail'],resolve)
     },
     {
       path: '/category',
-      name: 'Category',
-      component: Category
+      name: 'category',
+      component: resolve => require(['@/components/Category'],resolve)
     },
   ]
 })

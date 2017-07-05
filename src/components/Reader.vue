@@ -3,7 +3,7 @@
     <top-nav></top-nav>
     <div class="read-container" :bg="bg_color" :night="bg_night" ref="fz_size">
       <h4>{{chapterData.title}}</h4>
-      <p v-for="c in chapterData.content">{{c}}</p>
+      <p v-for="c in content">{{c}}</p>
       <div class="btn-bar">
         <ul class="btn-tab">
           <li class="prev-btn" @click="prevChapter">上一章</li>
@@ -33,11 +33,14 @@
   import FontNav from './FontNav/FontNav.vue'
   import ListPanel from './ListPanel/ListPanel.vue'
 
+  const api = 'http://localhost:3333'
+
   export default {
     data() {
       return {
         bar: false,
-        timer: null
+        timer: null,
+        content: []
       }
     },
     components: {
@@ -56,7 +59,7 @@
       if (localEvent.StorageGetter('cur_chapter')) {
         this.$store.state.curChapter = localEvent.StorageGetter('cur_chapter')
       }
-      this.getData()
+      this.getData(this.$route.params.id)
       this.$refs.fz_size.style.fontSize = this.fz_size + 'px'
     },
     methods: {
@@ -97,10 +100,11 @@
           }
         }, 1)
       },
-      getData() {
-        axios.get(`static/data/book${this.curBookDetailId}/chapter${this.curChapter}.json`).then((data) => {
+      getData(id) {
+        axios.get(`${api}/book?book=${id}&id=${this.curChapter}`).then((data) => {
 //            data.data = data.data.content.split('-')
           this.$store.state.chapterData = data.data
+          this.content = data.data.content.split('-')
         })
         this.$store.state.windowHeight = window.screen.height
       },
