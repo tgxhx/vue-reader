@@ -15,7 +15,7 @@
               <span>{{item.author}}</span>
             </div>
             <div class="category-r">
-              <span>{{item.type | type}}</span><span>{{item.serialize}}</span><span>{{item.wordcount}}万字</span>
+              <span>{{item.type}}</span><span>{{item.serialize}}</span><span>{{item.wordcount}}万字</span>
             </div>
           </div>
         </router-link>

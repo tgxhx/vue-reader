@@ -3,8 +3,11 @@
     <top-nav></top-nav>
     <div class="read-container" :bg="bg_color" :night="bg_night" ref="fz_size">
       <h4>{{chapterData.title}}</h4>
-      <p v-for="c in content">{{c}}</p>
-      <div class="btn-bar">
+      <div class="reader-loading" v-show="loading">loading</div>
+      <div class="chapterContent" v-show="!loading">
+        <p v-for="c in content">{{c}}</p>
+      </div>
+      <div class="btn-bar" v-show="!loading">
         <ul class="btn-tab">
           <li class="prev-btn" @click="prevChapter">上一章</li>
           <li class="next-btn" @click="nextChapter">下一章</li>
@@ -18,7 +21,8 @@
     <font-nav></font-nav>
     <bottom-nav></bottom-nav>
     <!--<transition name="fade">-->
-      <list-panel v-show="list_panel" class="animated fadeInLeft"></list-panel>
+    <cover :class="{hide:!list_panel}"></cover>
+    <list-panel :class="{show: list_panel}"></list-panel>
     <!--</transition>-->
   </div>
 </template>
@@ -32,6 +36,7 @@
   import BottomNav from './BottomNav/BottomNav.vue'
   import FontNav from './FontNav/FontNav.vue'
   import ListPanel from './ListPanel/ListPanel.vue'
+  import Cover from './Cover.vue'
 
   const api = 'http://localhost:3333'
 
@@ -40,14 +45,17 @@
       return {
         bar: false,
         timer: null,
-        content: []
+        content: [],
+        loading: false,
+        showList: false
       }
     },
     components: {
       TopNav,
       BottomNav,
       FontNav,
-      ListPanel
+      ListPanel,
+      Cover
     },
     mounted() {
       if (localEvent.StorageGetter('fz_size')) {
@@ -56,11 +64,15 @@
       if (localEvent.StorageGetter('bg_color')) {
         this.$store.state.bg_color = localEvent.StorageGetter('bg_color')
       }
-      if (localEvent.StorageGetter('cur_chapter')) {
-        this.$store.state.curChapter = localEvent.StorageGetter('cur_chapter')
+      if (this.$route.params.id == localEvent.StorageGetter('last_book')) {
+        this.getData(this.$route.params.id, localEvent.StorageGetter('last_book_chapter'))
+      } else {
+        this.getData(this.$route.params.id, 1)
+        this.$store.state.curChapter = 1
       }
-      this.getData(this.$route.params.id)
+
       this.$refs.fz_size.style.fontSize = this.fz_size + 'px'
+      window.addEventListener('keyup', this.page(e), false)
     },
     methods: {
       clickBar() {
@@ -100,9 +112,11 @@
           }
         }, 1)
       },
-      getData(id) {
-        axios.get(`${api}/book?book=${id}&id=${this.curChapter}`).then((data) => {
+      getData(id, chapter) {
+        this.loading = true
+        axios.get(`${api}/book?book=${id}&id=${chapter}`).then((data) => {
 //            data.data = data.data.content.split('-')
+          this.loading = false
           this.$store.state.chapterData = data.data
           this.content = data.data.content.split('-')
         })
@@ -110,15 +124,30 @@
       },
       prevChapter() {
         this.$store.dispatch('prevChapter')
+        this.saveLastBook()
         setTimeout(() => {
           document.body.scrollTop = 0
         }, 300)
       },
       nextChapter() {
-        this.$store.dispatch('nextChapter', 500)
+        this.$store.dispatch('nextChapter', 50)
+        this.saveLastBook()
         setTimeout(() => {
           document.body.scrollTop = 0
         }, 300)
+      },
+      saveLastBook() {
+        //可用localStorage保存每本小说阅读最后阅读章节信息
+        localEvent.StorageSetter('last_book', this.$route.params.id)  //保存当前书籍id
+        localEvent.StorageSetter('last_book_chapter', this.curChapter)
+      },
+      page(e) {
+        if (e.keyCode === 39) {
+          console.log(this.nextChapter)
+          this.nextChapter()
+        } else if (e.keyCode === 37) {
+          this.prevChapter()
+        }
       }
     },
     computed: {
@@ -133,7 +162,7 @@
       },
       curChapter(val, oldVal) {
         localEvent.StorageSetter('cur_chapter', val)
-        this.getData()
+        this.getData(this.$route.params.id, val)
       }
     }
   }
@@ -298,5 +327,12 @@
   .fade-enter,
   .fade-leave-active {
     opacity: 0;
+  }
+
+  .reader-loading {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 </style>

@@ -21,8 +21,6 @@ const state = {
   // bookDetail: {},
   curBookDetailId: 1,
   curBookContentId: 1,
-  bookCategory: 101,
-  bookCategoryType: '玄幻'
 }
 
 export default new Vuex.Store({

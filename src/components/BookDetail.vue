@@ -9,17 +9,18 @@
           <a @click="back"><i class="back"></i>
             <h2 class="detail-title">{{bookDetail.name}}</h2>
           </a>
+          <router-link to="/" class="home-btn"><i class="iconfont icon-home"></i></router-link>
         </header>
         <div class="detail-con">
           <div class="detail-img">
-            <img :src="bookDetail.images" alt="">
+            <img :src="bookDetail.images" alt="" @error="loadImage($event)">
           </div>
           <div class="detail-main">
             <h3 class="name">{{bookDetail.name}}</h3>
-            <p class="author">{{bookDetail.author}}</p>
-            <p class="ratings">{{bookDetail.ratings}}</p>
-            <p class="type">{{bookDetail.type}}</p>
+            <p class="author">作者：{{bookDetail.author}}</p>
+            <p class="type">分类：{{bookDetail.type}}</p>
             <p class="word-count">{{bookDetail.wordcount}}万字</p>
+            <rate :score="bookDetail.ratings"></rate>
           </div>
         </div>
         <div class="read-btn">
@@ -34,7 +35,7 @@
         </div>
       </div>
       <div class="detail-intro">
-        <p>{{bookDetail.intro}}</p>
+        <p :class="{show5: !showmore}" @click="showmore = !showmore">{{bookDetail.intro}}</p>
       </div>
       <div class="detail-tag">
         <h3 class="tag">类别标签</h3>
@@ -64,6 +65,8 @@
   import axios from 'axios'
   import Similar from './Similar.vue'
   const api = 'http://localhost:3333'
+  import defaultImage from '@/assets/js/utils.js'
+  import Rate from '@/components/rate/rate'
 
   export default {
     data() {
@@ -71,7 +74,8 @@
         loading: false,
         content: null,
         bookDetail: {},
-        likes: []
+        likes: [],
+        showmore: false
       }
     },
     created() {
@@ -97,6 +101,9 @@
       },
       back() {
         this.$router.go(-1)
+      },
+      loadImage(e) {
+        this.common.defaultImage(e)
       }
     },
     computed: {
@@ -104,16 +111,22 @@
         'curBookDetailId'/*, 'bookDetail'*/
       ])
     },
-    components: {Similar},
+    components: {Similar,Rate},
     watch: {
-      curBookDetailId(val, oldval) {
-        this.getBookDetail(val)
+      $route(to, from) {
+        this.getBookDetail(to.params.id)
       }
     }
   }
 </script>
 
 <style lang="less" type="text/less">
+  .ell {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
   .book-detail {
     padding: 0 20px;
   }
@@ -136,12 +149,16 @@
     background: linear-gradient(to top, #fff, rgba(255, 255, 255, 0) 8rem) no-repeat center bottom;
     .detail-top {
       position: fixed;
+      display: flex;
       left: 0;
       top: 0;
       right: 0;
       height: 50px;
       background-color: #eee;
-      i {
+      a:first-of-type {
+        flex:1;
+      }
+      i.back {
         position: absolute;
         left: 10px;
         top: 10px;
@@ -162,7 +179,7 @@
       padding: 15px 0 18px;
       .detail-img {
         width: 100px;
-        margin-right: 50px;
+        margin-right: 25px;
         img {
           width: 100%;
         }
@@ -172,10 +189,12 @@
         h3 {
           font-size: 18px;
           line-height: 1.5;
+          .ell;
         }
         p {
           font-size: 14px;
           line-height: 1.8;
+          .ell;
         }
       }
     }
@@ -185,10 +204,13 @@
         flex: 1;
         padding-bottom: 20px;
         border-bottom: 1px solid #ddd;
+        &:first-child {
+          margin-right:15px;
+        }
         button {
           display: block;
           margin: 0 auto;
-          width: 90%;
+          width: 100%;
           height: 33px;
           line-height: 33px;
           font-size: 15px;
@@ -215,12 +237,28 @@
     }
   }
 
+  .home-btn {
+    padding:15px 15px 0 0;
+    .iconfont {
+      font-size:22px;
+      color:#ed424b;
+    }
+  }
+
   .detail-intro {
     padding: 20px 0;
     font-size: 16px;
     text-indent: 2em;
     line-height: 1.6;
     border-bottom: 1px solid #ddd;
+    p.show5 {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      line-clamp: 5;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+    }
   }
 
   .detail-tag {

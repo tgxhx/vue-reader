@@ -32,7 +32,7 @@ export default {
     state.curChapter--
   },
   [types.NEXT_CHAPTER](state, maxChapter) {
-    if (state.curChapter >= 50) {
+    if (state.curChapter >= maxChapter) {
       return false
     }
     state.curChapter++

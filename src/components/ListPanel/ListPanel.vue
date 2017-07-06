@@ -1,6 +1,5 @@
 <template>
   <div class="list-panel" @touchmove:prevent>
-    <i class="list-overlay" @touchmove:prevent @click="hideListPanel"></i>
     <div class="list">
       <div class="list-nav">
         <i class="back" @click="hideListPanel"></i>
@@ -55,27 +54,23 @@
 <style lang="less" type="text/less">
   .list-panel {
     position: fixed;
+    transition: all .3s;
     left: 0;
     top: 0;
     bottom: 0;
-    right: 0;
+    right: 50px;
     z-index: 10;
     overflow: auto;
-    .list-overlay {
-      position: fixed;
-      left: 0;
-      top: 0;
-      bottom: 0;
-      right: 0;
-      background-color: #000;
-      opacity: .5;
+    transform: translateX(-100%);
+    &.show {
+      transform: translateX(0);
     }
     .list {
       position: absolute;
       left: 0;
       top: 0;
       bottom: 0;
-      right: 50px;
+      width:100%;
       background-color: #fff;
       opacity: 1;
       .list-nav {

@@ -7,6 +7,9 @@ import axios from 'axios'
 import store from './store/index'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
+import Common from '@/assets/js/utils.js'
+
+Vue.use(Common)
 
 Vue.use(MintUI)
 
