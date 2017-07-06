@@ -6,9 +6,9 @@
     <div class="detail-content" v-if="bookDetail">
       <div class="detail-linear">
         <header class="detail-top">
-          <router-link :to="back"><i class="back"></i>
+          <a @click="back"><i class="back"></i>
             <h2 class="detail-title">{{bookDetail.name}}</h2>
-          </router-link>
+          </a>
         </header>
         <div class="detail-con">
           <div class="detail-img">
@@ -50,23 +50,8 @@
       <div class="detail-like">
         <h3 class="like-title">喜欢本书的人也喜欢</h3>
         <ul class="like-list">
-          <li>
-            <div>
-              <img src="http://qidian.qpic.cn/qdbimg/349573/3347595/150" alt="">
-              <p>择天记</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="http://qidian.qpic.cn/qdbimg/349573/3347595/150" alt="">
-              <p>择天记</p>
-            </div>
-          </li>
-          <li>
-            <div>
-              <img src="http://qidian.qpic.cn/qdbimg/349573/3347595/150" alt="">
-              <p>择天记</p>
-            </div>
+          <li v-for="(item,index) in likes">
+            <similar :like="item"></similar>
           </li>
         </ul>
       </div>
@@ -77,6 +62,7 @@
 <script type="text/ecmascript-6">
   import {mapState} from 'vuex'
   import axios from 'axios'
+  import Similar from './Similar.vue'
   const api = 'http://localhost:3333'
 
   export default {
@@ -84,7 +70,8 @@
       return {
         loading: false,
         content: null,
-        bookDetail: {}
+        bookDetail: {},
+        likes: []
       }
     },
     created() {
@@ -97,6 +84,7 @@
 //          console.log(this.curBookId)
 //          this.$store.dispatch('showBookDetail', res.data)
           this.bookDetail = res.data
+          this.likes = res.data.like.split('-')
           this.loading = false
         })
       },
@@ -116,6 +104,7 @@
         'curBookDetailId'/*, 'bookDetail'*/
       ])
     },
+    components: {Similar},
     watch: {
       curBookDetailId(val, oldval) {
         this.getBookDetail(val)
@@ -261,12 +250,7 @@
       display: flex;
       li {
         flex: 1;
-        div {
-          width: 110px;
-          img {
-            width: 100%;
-          }
-        }
+
       }
     }
   }

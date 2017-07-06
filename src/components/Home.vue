@@ -16,7 +16,12 @@
       </div>
     </nav>
     <nav class="home-nav">
-      <router-link class="guide-nav-div" v-for="(item,index) in type" :to="'category'" :key="item.num" @click="openBookCategory(item.num)">
+      <router-link
+        class="guide-nav-div"
+        v-for="(item,index) in type"
+        :to="{path:'category',query: {type: item.num}}"
+        :key="item.num"
+        @click="openBookCategory(item.num)">
         <i class="icon icon-sort"></i>
         <h4 class="guide-nav-h">{{item.word}}</h4>
       </router-link>
@@ -42,23 +47,23 @@
         booklist: [],
         type: [
           {
-            num: 101,
+            num: 1,
             word: '玄幻'
           },
           {
-            num: 102,
-            word: '仙侠'
+            num: 2,
+            word: '修真'
           },
           {
-            num: 103,
+            num: 3,
             word: '都市'
           },
           {
-            num: 106,
+            num: 4,
             word: '历史'
           },
           {
-            num: 107,
+            num: 5,
             word: '游戏'
           }
         ]

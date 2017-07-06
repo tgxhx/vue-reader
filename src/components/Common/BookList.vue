@@ -41,26 +41,20 @@
     filters: {
       type(value) {
         switch (value) {
-          case '101':
+          case 1:
             return '玄幻'
             break
-          case '102':
-            return '仙侠'
+          case 2:
+            return '修真'
             break
-          case '103':
+          case 3:
             return '都市'
             break
-          case '104':
-            return '职场'
-            break
-          case '105':
-            return '奇幻'
-            break
-          case '106':
+          case 4:
             return '历史'
             break
-          case '107':
-            return '游戏'
+          case 5:
+            return '网游'
             break
           default:
             return '类型'

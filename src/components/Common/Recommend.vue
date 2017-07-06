@@ -59,6 +59,11 @@
           img {
             width: 100%;
           }
+          p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
         }
       }
     }

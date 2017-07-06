@@ -3,13 +3,13 @@
     <div class="category-header">
       <router-link :to="'/'">
         <i></i>
-        <h2>玄幻</h2>
+        <h2>{{title}}</h2>
       </router-link>
     </div>
     <div class="category-list">
       <ul>
         <li v-for="item in categoryList">
-          <router-link :to="'BookDetail'" @click.native="bookDetailId(item.id)">
+          <router-link :to="{ path: '/bookdetail/' + item.id}" @click.native="bookDetailId(item.id)">
             <div class="book-image">
               <img :src="item.images" alt="">
             </div>
@@ -34,6 +34,7 @@
 <script type="text/ecmascript-6">
   import axios from 'axios'
   import {mapState} from 'vuex'
+  import api from '@/assets/js/api'
 
   export default {
     data() {
@@ -42,32 +43,57 @@
       }
     },
     mounted() {
-      this.getCategory()
+      this.getCategory(this.$route.query.type)
     },
     methods: {
-      getCategory() {
-        axios.get('static/data/booklist/booklist.json').then(res => {
+      getCategory(type) {
+        axios.get(`${api}/type?type=${type}`).then(res => {
           const typeArr = []
-          res.data.booklist.forEach(item => {
+          console.log(res.data)
+          /*res.data.forEach(item => {
             if (item.type == this.bookCategory) {
               typeArr.push(item)
             }
-          })
+          })*/
 //          console.log(typeArr)
-          this.categoryList = typeArr
+          this.categoryList = res.data
 //          this.$store.state.bg_color = 3
         })
       },
       bookDetailId(id) {
         this.$store.dispatch('chooseBook', id)
         console.log(id)
+      },
+      unique(arr) {
+        return Array.from(new Set(arr))
       }
     },
     computed: {
       ...mapState([
         'bookCategory','bookCategoryType'
-      ])
-    }
+      ]),
+      title() {
+        switch (this.$route.query.type) {
+          case 1:
+            return '玄幻'
+            break
+          case 2:
+            return '修真'
+            break
+          case 3:
+            return '都市'
+            break
+          case 4:
+            return '历史'
+            break
+          case 5:
+            return '网游'
+            break
+          default:
+            return '分类'
+        }
+      }
+    },
   }
 </script>
 
