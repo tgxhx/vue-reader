@@ -1,9 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import BookDetail from '@/components/BookDetail'
-import Reader from '@/components/Reader'
-import Category from '@/components/Category'
-import Home from '../components/Home.vue'
 
 Vue.use(Router)
 

@@ -2,7 +2,7 @@
   <div class="container">
     <nav class="nav-header">
       <header>
-        <a href="/" class="brand">起点中文网</a>
+        <a href="/" class="brand">移动书城</a>
         <a href="/" class="avatar"></a>
       </header>
       <div class="swipe">
@@ -26,12 +26,15 @@
         <h4 class="guide-nav-h">{{item.word}}</h4>
       </router-link>
     </nav>
-    <recommend :booklist="booklist | hot" title="热门小说"></recommend>
-    <recommend :booklist="booklist | top" title="排行榜"></recommend>
-    <recommend :booklist="booklist | free" title="限时免费"></recommend>
-    <book-list :datalist="booklist | newbook" title="新书抢鲜"></book-list>
-    <book-list :datalist="booklist | endbook" title="畅销完本"></book-list>
-    <book-list :datalist="booklist | like" title="猜你喜欢"></book-list>
+    <div v-if="!loading">
+      <recommend :booklist="booklist | hot" title="热门小说"></recommend>
+      <recommend :booklist="booklist | top" title="排行榜"></recommend>
+      <recommend :booklist="booklist | free" title="限时免费"></recommend>
+      <book-list :datalist="booklist | newbook" title="新书抢鲜"></book-list>
+      <book-list :datalist="booklist | endbook" title="畅销完本"></book-list>
+      <book-list :datalist="booklist | like" title="猜你喜欢"></book-list>
+    </div>
+    <loading v-show="loading"></loading>
   </div>
 </template>
 
@@ -40,6 +43,7 @@
   import Recommend from './Common/Recommend.vue'
   import BookList from './Common/BookList.vue'
   const api = 'http://localhost:3333'
+  import Loading from './Loading/Loading.vue'
 
   export default {
     data() {
@@ -66,7 +70,8 @@
             num: 5,
             word: '游戏'
           }
-        ]
+        ],
+        loading: false
       }
     },
     created() {
@@ -74,9 +79,10 @@
     },
     methods: {
       getData() {
+        this.loading = true
         axios.get(`${api}/booklist`).then(res => {
+          this.loading = false
           this.booklist = res.data
-//          console.log(this.booklist)
         })
       },
       openBookCategory(num) {
@@ -85,7 +91,8 @@
     },
     components: {
       Recommend,
-      BookList
+      BookList,
+      Loading
     },
     filters: {
       hot(value) {
@@ -122,7 +129,7 @@
         if (!value) return ''
         var arr = []
         value.forEach((item, index) => {
-          if (index % parseInt(Math.random() * 19) == 0) {
+          if (index % 3 == 1) {
             arr.push(item)
           }
         })
@@ -142,7 +149,7 @@
         if (!value) return ''
         var arr = []
         value.forEach((item, index) => {
-          if (index % parseInt(Math.random() * 18 + 1) == 1) {
+          if (index % 4 == 2) {
             arr.push(item)
           }
         })

@@ -3,7 +3,6 @@
     <top-nav></top-nav>
     <div class="read-container" :bg="bg_color" :night="bg_night" ref="fz_size">
       <h4>{{title}}</h4>
-      <div class="reader-loading" v-show="loading">loading</div>
       <div class="chapterContent" v-show="!loading">
         <p v-for="(c,i) in content" :key="i">{{c}}</p>
       </div>
@@ -23,6 +22,7 @@
     <!--<transition name="fade">-->
     <cover :class="{hide:!list_panel}"></cover>
     <list-panel :class="{show: list_panel}" :bookId="$route.params.id"></list-panel>
+    <loading v-show="loading"></loading>
     <!--</transition>-->
   </div>
 </template>
@@ -37,6 +37,7 @@
   import FontNav from './FontNav/FontNav.vue'
   import ListPanel from './ListPanel/ListPanel.vue'
   import Cover from './Cover.vue'
+  import Loading from './Loading/Loading.vue'
 
   const api = 'http://localhost:3333'
 
@@ -57,7 +58,8 @@
       BottomNav,
       FontNav,
       ListPanel,
-      Cover
+      Cover,
+      Loading
     },
     mounted() {
       if (localEvent.StorageGetter('fz_size')) {
@@ -355,10 +357,4 @@
     opacity: 0;
   }
 
-  .reader-loading {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-  }
 </style>
