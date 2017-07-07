@@ -31,7 +31,7 @@
         required: true
       }
     },
-    mounted() {
+    created() {
       this.getList()
     },
     methods: {

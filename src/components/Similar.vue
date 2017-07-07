@@ -11,7 +11,6 @@
   import axios from 'axios'
   import {mapState} from 'vuex'
   import api from '@/assets/js/api'
-  //  import {defaultImage} from '@/assets/js/utils.js'
 
   export default {
     data() {
@@ -28,10 +27,8 @@
     computed: {
       ...mapState([])
     },
-    mounted() {
-      this.$nextTick(() => {
-        this.getBookDetail(this.like)
-      })
+    created() {
+      this.getBookDetail(this.like)
     },
     methods: {
       getBookDetail(id) {

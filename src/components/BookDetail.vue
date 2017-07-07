@@ -1,8 +1,6 @@
 <template>
   <div class="book-detail">
-    <div class="loading" v-if="loading">
-      Loading...
-    </div>
+    <loading v-show="loading"></loading>
     <div class="detail-content" v-if="bookDetail">
       <div class="detail-linear">
         <header class="detail-top">
@@ -11,7 +9,7 @@
           </a>
           <router-link to="/" class="home-btn"><i class="iconfont icon-home"></i></router-link>
         </header>
-        <div class="detail-con">
+        <div class="detail-con" v-if="!loading">
           <div class="detail-img">
             <img :src="bookDetail.images" alt="" @error="loadImage($event)">
           </div>
@@ -23,38 +21,42 @@
             <rate :score="bookDetail.ratings"></rate>
           </div>
         </div>
-        <div class="read-btn">
+        <div class="read-btn" v-if="!loading">
           <div>
-            <button @click="loadBookText">
+            <button @click="openBook">
               <router-link :to="{path:'/reader/'+ bookDetail.id}">开始阅读</router-link>
             </button>
           </div>
           <div>
-            <button>开始阅读</button>
+            <button @click="openBook">
+              <router-link :to="{path:'/reader/'+ bookDetail.id}">开始阅读</router-link>
+            </button>
           </div>
         </div>
       </div>
-      <div class="detail-intro">
-        <p :class="{show5: !showmore}" @click="showmore = !showmore">{{bookDetail.intro}}</p>
-      </div>
-      <div class="detail-tag">
-        <h3 class="tag">类别标签</h3>
-        <ul class="tag-btn clearfix">
-          <li>
-            {{bookDetail.type}}
-          </li>
-          <li>
-            东方玄幻
-          </li>
-        </ul>
-      </div>
-      <div class="detail-like">
-        <h3 class="like-title">喜欢本书的人也喜欢</h3>
-        <ul class="like-list">
-          <li v-for="(item,index) in likes">
-            <similar :like="item"></similar>
-          </li>
-        </ul>
+      <div v-if="!loading">
+        <div class="detail-intro">
+          <p :class="{show5: !showmore}" @click="showmore = !showmore">{{bookDetail.intro}}</p>
+        </div>
+        <div class="detail-tag">
+          <h3 class="tag">类别标签</h3>
+          <ul class="tag-btn clearfix">
+            <li>
+              {{bookDetail.type}}
+            </li>
+            <li>
+              东方玄幻
+            </li>
+          </ul>
+        </div>
+        <div class="detail-like">
+          <h3 class="like-title">喜欢本书的人也喜欢</h3>
+          <ul class="like-list">
+            <li v-for="(item,index) in likes">
+              <similar :like="item"></similar>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -67,6 +69,7 @@
   const api = 'http://localhost:3333'
   import defaultImage from '@/assets/js/utils.js'
   import Rate from '@/components/rate/rate'
+  import Loading from './Loading/Loading.vue'
 
   export default {
     data() {
@@ -74,29 +77,24 @@
         loading: false,
         content: null,
         bookDetail: {},
-        likes: [],
-        showmore: false
+        likes: [],  //相似推荐
+        showmore: false //简介显示更多
       }
     },
     created() {
-      this.loading = true
       this.getBookDetail(this.$route.params.id)
     },
     methods: {
       getBookDetail(bookId) {
+        this.loading = true
         axios.get(`${api}/booklist?id=${bookId}`).then((res) => {
-//          console.log(this.curBookId)
-//          this.$store.dispatch('showBookDetail', res.data)
+          this.loading = false
+          this.showmore = false
           this.bookDetail = res.data
           this.likes = res.data.like.split('-')
-          this.loading = false
         })
       },
-      loadBookText() {
-        if (this.$store.state.curBookDetailId !== this.$store.state.curBookContentId) {
-          this.$store.dispatch('curChapter',1)
-        }
-        this.$store.state.curBookContentId = this.$store.state.curBookDetailId
+      openBook() {
         this.$store.state.bar = false
       },
       back() {
@@ -108,10 +106,10 @@
     },
     computed: {
       ...mapState([
-        'curBookDetailId'/*, 'bookDetail'*/
+        'curBookDetailId'
       ])
     },
-    components: {Similar,Rate},
+    components: {Similar, Rate, Loading},
     watch: {
       $route(to, from) {
         this.getBookDetail(to.params.id)
@@ -156,7 +154,7 @@
       height: 50px;
       background-color: #eee;
       a:first-of-type {
-        flex:1;
+        flex: 1;
       }
       i.back {
         position: absolute;
@@ -205,7 +203,7 @@
         padding-bottom: 20px;
         border-bottom: 1px solid #ddd;
         &:first-child {
-          margin-right:15px;
+          margin-right: 15px;
         }
         button {
           display: block;
@@ -238,10 +236,10 @@
   }
 
   .home-btn {
-    padding:15px 15px 0 0;
+    padding: 15px 15px 0 0;
     .iconfont {
-      font-size:22px;
-      color:#ed424b;
+      font-size: 22px;
+      color: #ed424b;
     }
   }
 

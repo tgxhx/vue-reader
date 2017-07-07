@@ -61,7 +61,7 @@
       Cover,
       Loading
     },
-    mounted() {
+    created() {
       if (localEvent.StorageGetter('fz_size')) {
         this.$store.state.fz_size = localEvent.StorageGetter('fz_size')
       }
@@ -93,9 +93,9 @@
           this.$store.dispatch('curChapter', 1)
         }
       }
-
+    },
+    mounted() {
       this.$refs.fz_size.style.fontSize = this.fz_size + 'px'
-
     },
     methods: {
       clickBar() {

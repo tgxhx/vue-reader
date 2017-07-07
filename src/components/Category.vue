@@ -6,7 +6,7 @@
         <h2>{{title}}</h2>
       </router-link>
     </div>
-    <div class="category-list">
+    <div class="category-list" v-if="!loading">
       <ul>
         <li v-for="item in categoryList">
           <router-link :to="{ path: '/bookdetail/' + item.id}" @click.native="bookDetailId(item.id)">
@@ -28,6 +28,7 @@
         </li>
       </ul>
     </div>
+    <loading v-show="loading"></loading>
   </div>
 </template>
 
@@ -35,20 +36,23 @@
   import axios from 'axios'
   import {mapState} from 'vuex'
   import api from '@/assets/js/api'
+  import Loading from './Loading/Loading.vue'
 
   export default {
     data() {
       return {
         categoryList: [],
+        loading: false
       }
     },
-    mounted() {
+    created() {
       this.getCategory(this.$route.query.type)
     },
     methods: {
       getCategory(type) {
+        this.loading = true
         axios.get(`${api}/type?type=${type}`).then(res => {
-          const typeArr = []
+          this.loading = false
           this.categoryList = res.data
         })
       },
@@ -59,6 +63,9 @@
       unique(arr) {
         return Array.from(new Set(arr))
       }
+    },
+    components: {
+      Loading
     },
     computed: {
       ...mapState([
