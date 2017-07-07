@@ -45,5 +45,8 @@ export default {
   },
   [types.BOOK_CATEGORY] (state, num) {
     state.bookCategory = num
+  },
+  [types.CUR_CHAPTER](state, num) {
+    state.curChapter = num
   }
 }

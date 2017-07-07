@@ -20,6 +20,5 @@ export const CHOOSE_BOOK = 'CHOOSE_BOOK'
 export const SHOW_BOOK_DETAIL = 'SHOW_BOOK_DETAIL'
 //分类页类型数字
 export const BOOK_CATEGORY = 'BOOK_CATEGORY'
-//分类页类型文字
-export const BOOK_CATEGORY_TYPE = 'BOOK_CATEGORY_TYPE'
-
+//当前章节
+export const CUR_CHAPTER = 'CUR_CHAPTER'

@@ -2,10 +2,10 @@
   <div id="reader">
     <top-nav></top-nav>
     <div class="read-container" :bg="bg_color" :night="bg_night" ref="fz_size">
-      <h4>{{chapterData.title}}</h4>
+      <h4>{{title}}</h4>
       <div class="reader-loading" v-show="loading">loading</div>
       <div class="chapterContent" v-show="!loading">
-        <p v-for="c in content">{{c}}</p>
+        <p v-for="(c,i) in content" :key="i">{{c}}</p>
       </div>
       <div class="btn-bar" v-show="!loading">
         <ul class="btn-tab">
@@ -22,7 +22,7 @@
     <bottom-nav></bottom-nav>
     <!--<transition name="fade">-->
     <cover :class="{hide:!list_panel}"></cover>
-    <list-panel :class="{show: list_panel}"></list-panel>
+    <list-panel :class="{show: list_panel}" :bookId="$route.params.id"></list-panel>
     <!--</transition>-->
   </div>
 </template>
@@ -45,9 +45,11 @@
       return {
         bar: false,
         timer: null,
+        title: '',
         content: [],
         loading: false,
-        showList: false
+        showList: false,
+        booksReadInfo: {}
       }
     },
     components: {
@@ -64,15 +66,34 @@
       if (localEvent.StorageGetter('bg_color')) {
         this.$store.state.bg_color = localEvent.StorageGetter('bg_color')
       }
-      if (this.$route.params.id == localEvent.StorageGetter('last_book')) {
-        this.getData(this.$route.params.id, localEvent.StorageGetter('last_book_chapter'))
+
+      //加载时从localStorage中回去所有数据阅读进度
+      const localBookReaderInfo = localEvent.StorageGetter('bookreaderinfo')
+      let id = this.$route.params.id
+
+      //当前书籍以前读过并有阅读进度
+      if (localBookReaderInfo && localBookReaderInfo[id]) {
+        this.booksReadInfo = localEvent.StorageGetter('bookreaderinfo')
+        this.getData(id, this.booksReadInfo[id].chapter)
+        this.$store.dispatch('curChapter', this.booksReadInfo[id].chapter)
       } else {
-        this.getData(this.$route.params.id, 1)
-        this.$store.state.curChapter = 1
+        //当前书籍没有读过但是localStorage保存了其他书籍进度
+        if (localBookReaderInfo) {
+          this.booksReadInfo = localBookReaderInfo
+          this.getData(id, 1)
+          this.$store.dispatch('curChapter', 1)
+        } else {  //第一次进入阅读
+          this.booksReadInfo[id] = {
+            book: id,
+            chapter: 1
+          }
+          this.getData(id, 1)
+          this.$store.dispatch('curChapter', 1)
+        }
       }
 
       this.$refs.fz_size.style.fontSize = this.fz_size + 'px'
-      window.addEventListener('keyup', this.page(e), false)
+
     },
     methods: {
       clickBar() {
@@ -115,31 +136,35 @@
       getData(id, chapter) {
         this.loading = true
         axios.get(`${api}/book?book=${id}&id=${chapter}`).then((data) => {
-//            data.data = data.data.content.split('-')
           this.loading = false
-          this.$store.state.chapterData = data.data
+          this.title = data.data.title
           this.content = data.data.content.split('-')
         })
         this.$store.state.windowHeight = window.screen.height
       },
       prevChapter() {
         this.$store.dispatch('prevChapter')
-        this.saveLastBook()
+        this.saveBooksInfo()
         setTimeout(() => {
           document.body.scrollTop = 0
         }, 300)
       },
       nextChapter() {
         this.$store.dispatch('nextChapter', 50)
-        this.saveLastBook()
+        this.saveBooksInfo()
         setTimeout(() => {
           document.body.scrollTop = 0
         }, 300)
       },
-      saveLastBook() {
-        //可用localStorage保存每本小说阅读最后阅读章节信息
-        localEvent.StorageSetter('last_book', this.$route.params.id)  //保存当前书籍id
-        localEvent.StorageSetter('last_book_chapter', this.curChapter)
+      saveBooksInfo() {
+        //可用localStorage保存每本小说阅读进度
+        let id = this.$route.params.id
+
+        this.booksReadInfo[id] = {
+          book: id,
+          chapter: this.curChapter
+        }
+        localEvent.StorageSetter('bookreaderinfo', this.booksReadInfo)
       },
       page(e) {
         if (e.keyCode === 39) {
@@ -162,6 +187,7 @@
       },
       curChapter(val, oldVal) {
         localEvent.StorageSetter('cur_chapter', val)
+        this.saveBooksInfo()
         this.getData(this.$route.params.id, val)
       }
     }

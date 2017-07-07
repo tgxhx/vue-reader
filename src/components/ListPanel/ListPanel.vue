@@ -20,16 +20,26 @@
   const api = 'http://localhost:3333'
 
   export default {
+    data() {
+      return {
+        chapterList: []
+      }
+    },
+    props: {
+      bookId: {
+        type:String,
+        required: true
+      }
+    },
     mounted() {
       this.getList()
-      console.log(this.$re)
     },
     methods: {
       jumpTo(index) {
           if (index >= 50) {
               index = 50
           }
-        this.$store.state.curChapter = index + 1
+        this.$store.dispatch('curChapter',index + 1)
         this.hideListPanel()
         this.$store.state.bar = false
         document.body.scrollTop = 0
@@ -38,15 +48,10 @@
         this.$store.state.list_panel = false
       },
       getList() {
-        axios.get(`${api}/booktitles?id=${this.curBookDetailId}`).then(res => {
-          this.$store.state.chapterList = res.data.content.split('-')
+        axios.get(`${api}/titles?id=${this.bookId}`).then(res => {
+          this.chapterList = res.data.titles.split('-')
         })
       }
-    },
-    computed: {
-      ...mapState([
-        'chapterList','curBookDetailId'
-      ])
     }
   }
 </script>

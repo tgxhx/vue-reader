@@ -49,15 +49,7 @@
       getCategory(type) {
         axios.get(`${api}/type?type=${type}`).then(res => {
           const typeArr = []
-          console.log(res.data)
-          /*res.data.forEach(item => {
-            if (item.type == this.bookCategory) {
-              typeArr.push(item)
-            }
-          })*/
-//          console.log(typeArr)
           this.categoryList = res.data
-//          this.$store.state.bg_color = 3
         })
       },
       bookDetailId(id) {
@@ -70,7 +62,7 @@
     },
     computed: {
       ...mapState([
-        'bookCategory','bookCategoryType'
+        'bookCategoryType'
       ]),
       title() {
         switch (this.$route.query.type) {

@@ -33,5 +33,8 @@ export default {
   },
   bookCategory({commit}, num) {
     commit(types.BOOK_CATEGORY, num)
+  },
+  curChapter({commit}, num) {
+    commit(types.CUR_CHAPTER, num)
   }
 }

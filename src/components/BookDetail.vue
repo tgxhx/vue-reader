@@ -94,7 +94,7 @@
       },
       loadBookText() {
         if (this.$store.state.curBookDetailId !== this.$store.state.curBookContentId) {
-          this.$store.state.curChapter = 1
+          this.$store.dispatch('curChapter',1)
         }
         this.$store.state.curBookContentId = this.$store.state.curBookDetailId
         this.$store.state.bar = false
