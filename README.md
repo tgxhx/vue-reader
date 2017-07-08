@@ -7,6 +7,8 @@
 > [api地址](https://github.com/tgxhx/node-book-api)
 
 > [爬虫地址](https://github.com/tgxhx/node-crawler)
+
+> 另外推荐一下自己另外一个[高仿网易云音乐](https://github.com/tgxhx/vue-music)和一个[MD风格Cnode社区](https://github.com/tgxhx/vue-md-cnode)
 ## 使用说明
 
 ``` bash
