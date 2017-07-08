@@ -1,6 +1,6 @@
 # vue+nodejs+mysql的移动书城
 
-> 技术栈：vue + vue-router + vuex + webpack + axios + less + flex + express + nodejs + mysql 
+> 技术栈：vue + vue-router + vuex + webpack + axios + less + flex + express + nodejs + mysql + localStorage
 
 > [预览地址](http://39.108.14.248/reader)
 ## 使用说明
@@ -30,6 +30,21 @@ npm run build
 数据有了，接下来该构建api了，谷歌了一下发现用express好像不错，于是又学习了express部分，构建了所需的api。
 
 再接着就上vue全家桶开始写了。
+
+## 功能
+- [x] 首页推荐
+- [x] 书籍详情
+- [x] 相似推荐
+- [x] 分类查看 
+- [x] 阅读器 
+- [x] 章节跳转
+- [x] 更改字体
+- [x] 更换主题
+- [x] 夜间模式
+- [x] 翻页浏览
+- [x] 本地存储（存储每本书的阅读进度）
+- [ ] 书架（待考虑）
+
 
 ## 项目截图
 ![](screen/1.png)![](screen/2.png)
