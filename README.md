@@ -3,6 +3,10 @@
 > 技术栈：vue + vue-router + vuex + webpack + axios + less + flex + express + nodejs + mysql + localStorage
 
 > [预览地址](http://39.108.14.248/reader)
+
+> [api地址](https://github.com/tgxhx/node-book-api)
+
+> [爬虫地址](https://github.com/tgxhx/node-crawler)
 ## 使用说明
 
 ``` bash
@@ -27,7 +31,7 @@ npm run build
 
 后来想想阅读器写好了，没有书可不行，想想应该用爬虫爬点数据，于是各种查找node爬虫的资料，写了不少爬虫，本项目使用的爬虫地址在这：[地址](https://github.com/tgxhx/node-crawler)。
 
-数据有了，接下来该构建api了，谷歌了一下发现用express好像不错，于是又学习了express部分，构建了所需的api。
+数据有了，接下来该构建api了，谷歌了一下发现用express好像不错，于是又学习了express部分，构建了所需的api,[地址在这](https://github.com/tgxhx/node-book-api)。
 
 再接着就上vue全家桶开始写了。
 
