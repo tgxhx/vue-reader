@@ -31,9 +31,6 @@ export default {
   showBookDetail({commit}, obj) {
     commit(types.SHOW_BOOK_DETAIL, obj)
   },
-  bookCategory({commit}, num) {
-    commit(types.BOOK_CATEGORY, num)
-  },
   curChapter({commit}, num) {
     commit(types.CUR_CHAPTER, num)
   }

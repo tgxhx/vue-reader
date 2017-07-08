@@ -42,7 +42,6 @@
   import axios from 'axios'
   import Recommend from './Common/Recommend.vue'
   import BookList from './Common/BookList.vue'
-  const api = 'http://localhost:3333'
   import Loading from './Loading/Loading.vue'
 
   export default {
@@ -80,13 +79,10 @@
     methods: {
       getData() {
         this.loading = true
-        axios.get(`${api}/booklist`).then(res => {
-          this.loading = false
+        axios.get(`${this.common.api}/booklist`).then(res => {
+          this.loading = false //获取数据完成后隐藏loading
           this.booklist = res.data
         })
-      },
-      openBookCategory(num) {
-          this.$store.dispatch('bookCategory', num)
       }
     },
     components: {

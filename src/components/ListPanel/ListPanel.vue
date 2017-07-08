@@ -17,7 +17,6 @@
 <script type="text/ecmascript-6">
   import axios from 'axios'
   import {mapState} from  'vuex'
-  const api = 'http://localhost:3333'
 
   export default {
     data() {
@@ -48,7 +47,7 @@
         this.$store.state.list_panel = false
       },
       getList() {
-        axios.get(`${api}/titles?id=${this.bookId}`).then(res => {
+        axios.get(`${this.common.api}/titles?id=${this.bookId}`).then(res => {
           this.chapterList = res.data.titles.split('-')
         })
       }

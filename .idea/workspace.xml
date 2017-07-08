@@ -2,12 +2,808 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f24e038a-3cd8-4948-98eb-f7255bd2ac0b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/screen/5.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book1/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book10/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book11/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book12/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book13/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book14/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book15/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book16/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book17/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book18/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book19/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book2/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book20/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book3/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter38.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter39.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter40.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter41.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter42.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter43.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter44.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter45.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter46.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter47.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter48.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter49.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter50.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter6.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter7.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter8.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book4/chapter9.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter10.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter11.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter12.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter13.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter14.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter15.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter16.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter17.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter18.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter19.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter20.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter21.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter22.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter23.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter24.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter25.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter26.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter27.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter28.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter29.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter30.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter31.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter32.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter33.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter34.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter35.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter36.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter37.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/book5/chapter38.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/index.js" afterPath="$PROJECT_DIR$/config/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/js/utils.js" afterPath="$PROJECT_DIR$/src/assets/js/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/BookDetail.vue" afterPath="$PROJECT_DIR$/src/components/BookDetail.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Category.vue" afterPath="$PROJECT_DIR$/src/components/Category.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/FontNav/FontNav.vue" afterPath="$PROJECT_DIR$/src/components/FontNav/FontNav.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Home.vue" afterPath="$PROJECT_DIR$/src/components/Home.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ListPanel/ListPanel.vue" afterPath="$PROJECT_DIR$/src/components/ListPanel/ListPanel.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Reader.vue" afterPath="$PROJECT_DIR$/src/components/Reader.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Similar.vue" afterPath="$PROJECT_DIR$/src/components/Similar.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/actions.js" afterPath="$PROJECT_DIR$/src/store/actions.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/index.js" afterPath="$PROJECT_DIR$/src/store/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/mutations-types.js" afterPath="$PROJECT_DIR$/src/store/mutations-types.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/store/mutations.js" afterPath="$PROJECT_DIR$/src/store/mutations.js" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,80 +828,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Home.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-              <folding>
-                <element signature="n#nav#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#1622#1647#0" expanded="true" />
-                <element signature="e#1912#2262#0" expanded="false" />
-                <element signature="e#3651#3862#0" expanded="false" />
-                <element signature="e#4222#4762#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Reader.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Reader.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2134">
-              <caret line="97" column="61" lean-forward="true" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
-              <folding>
-                <element signature="e#1099#1120#0" expanded="true" />
-                <marker date="1499440406529" expanded="false" signature="3686:4549" ph="{...}" />
-                <marker date="1499440406529" expanded="false" signature="6340:7594" ph="{...}" />
-                <marker date="1499440406529" expanded="false" signature="7611:7646" ph="{...}" />
-                <marker date="1499440406529" expanded="false" signature="7674:7734" ph="{...}" />
-                <marker date="1499440406529" expanded="false" signature="7762:7822" ph="{...}" />
-                <marker date="1499440406529" expanded="false" signature="7850:7910" ph="{...}" />
-                <marker date="1499440406529" expanded="false" signature="7938:7998" ph="{...}" />
-                <marker date="1499440406529" expanded="false" signature="8026:8086" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Loading.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Loading/Loading.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-              <folding>
-                <element signature="e#371#861#0" expanded="false" />
-                <element signature="e#612#857#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mutations.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/mutations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/store/local.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="176">
+              <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -113,20 +840,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookDetail.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BookDetail.vue">
+      <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/store/actions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1133">
-              <caret line="108" column="25" lean-forward="false" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#2183#2212#0" expanded="true" />
-                <element signature="e#2319#2366#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="726">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,43 +853,22 @@
       <file leaf-file-name="ListPanel.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/ListPanel/ListPanel.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+            <state relative-caret-position="1056">
+              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Category.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Category.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-              <folding>
-                <element signature="n#router-link#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="n#router-link#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#1070#1095#0" expanded="true" />
-                <element signature="e#1634#1714#0" expanded="false" />
-                <element signature="e#1917#2321#0" expanded="false" />
-                <element signature="e#2450#2774#0" expanded="false" />
-                <element signature="e#2793#4445#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Similar.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Similar.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#398#451#0" expanded="false" />
-                <element signature="e#413#445#0" expanded="false" />
-                <element signature="e#464#538#0" expanded="false" />
-                <element signature="e#554#583#0" expanded="false" />
-                <element signature="e#827#927#0" expanded="false" />
-              </folding>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -192,7 +890,6 @@
       <find>btn-tab</find>
       <find>font_panel</find>
       <find>margin-right: 50px;</find>
-      <find>curBookDetailId</find>
       <find>八≥＞一中文≯ Ｗ＜Ｗ≦Ｗ﹤．＜８≤１＜Ｚ≤Ｗ≦．﹤Ｃ﹤Ｏ≦Ｍ</find>
       <find>㈧㈠中ΔΔ文网ＷｗんＷ．『８⒈Ｚｗ．ＣＯ</find>
       <find>㈧㈠中ΔΔ文网ＷｗんＷ．『８⒈Ｚｗ．ＣＯＭ</find>
@@ -214,6 +911,9 @@
       <find>md-spinner</find>
       <find>$duration</find>
       <find>style</find>
+      <find>list_panel</find>
+      <find>curBookDetailId</find>
+      <find>chapterData</find>
     </findStrings>
     <replaceStrings>
       <replace>font_panel</replace>
@@ -228,9 +928,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/BottomNav/BottomNav.vue" />
-        <option value="$PROJECT_DIR$/static/data/bookChapter/book1.json" />
-        <option value="$PROJECT_DIR$/static/data/book3/chapter1.json" />
         <option value="$PROJECT_DIR$/static/data/book4/chapter1.json" />
         <option value="$PROJECT_DIR$/static/data/book5/chapter1.json" />
         <option value="$PROJECT_DIR$/static/data/book6/chapter1.json" />
@@ -254,7 +951,6 @@
         <option value="$PROJECT_DIR$/src/components/Common/Title.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/components/TopNav/TopNav.vue" />
-        <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/src/assets/js/api.js" />
         <option value="$PROJECT_DIR$/src/assets/js/unique.js" />
         <option value="$PROJECT_DIR$/src/components/TopNav/Similar.vue" />
@@ -266,19 +962,23 @@
         <option value="$PROJECT_DIR$/src/components/Common/Recommend.vue" />
         <option value="$PROJECT_DIR$/src/components/Common/BookList.vue" />
         <option value="$PROJECT_DIR$/src/components/rate/rate.vue" />
-        <option value="$PROJECT_DIR$/src/store/mutations-types.js" />
-        <option value="$PROJECT_DIR$/src/store/mutations.js" />
-        <option value="$PROJECT_DIR$/src/store/actions.js" />
-        <option value="$PROJECT_DIR$/src/store/index.js" />
         <option value="$PROJECT_DIR$/src/components/Cover.vue" />
         <option value="$PROJECT_DIR$/src/router/index.js" />
-        <option value="$PROJECT_DIR$/src/components/Home.vue" />
         <option value="$PROJECT_DIR$/src/components/Loading/Loading.vue" />
+        <option value="$PROJECT_DIR$/src/store/mutations.js" />
+        <option value="$PROJECT_DIR$/src/store/actions.js" />
+        <option value="$PROJECT_DIR$/src/store/mutations-types.js" />
+        <option value="$PROJECT_DIR$/src/store/index.js" />
+        <option value="$PROJECT_DIR$/src/components/FontNav/FontNav.vue" />
+        <option value="$PROJECT_DIR$/src/components/Home.vue" />
         <option value="$PROJECT_DIR$/src/components/ListPanel/ListPanel.vue" />
-        <option value="$PROJECT_DIR$/src/components/Category.vue" />
-        <option value="$PROJECT_DIR$/src/components/Reader.vue" />
         <option value="$PROJECT_DIR$/src/components/BookDetail.vue" />
+        <option value="$PROJECT_DIR$/src/components/Category.vue" />
         <option value="$PROJECT_DIR$/src/components/Similar.vue" />
+        <option value="$PROJECT_DIR$/src/components/Reader.vue" />
+        <option value="$PROJECT_DIR$/src/assets/js/utils.js" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -323,7 +1023,7 @@
     </entry>
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -331,7 +1031,7 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource Scope="true" />
+      <autoscrollFromSource Scope="true" ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
@@ -344,177 +1044,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="External Dependencies">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="D:">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Sync">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="我的坚果云">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="router">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="components">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="components">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Loading">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="components">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ListPanel">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="assets">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="assets">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="js">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vue-reader">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="build">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -534,114 +1064,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-reader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -654,7 +1076,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue-music" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -667,18 +1089,18 @@
     <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Sync\我的坚果云\vue\vue-reader\src\components\rate" />
-      <recent name="D:\Sync\我的坚果云\vue\vue-reader\static\data" />
-      <recent name="F:\vue\vue-reader\src\assets\images" />
-      <recent name="F:\vue\vue-reader\static" />
-      <recent name="F:\vue\vue-reader\static\data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Sync\我的坚果云\vue\vue-reader\src\components" />
       <recent name="D:\vue\vue-reader\static" />
       <recent name="D:\vue\vue-reader\src" />
       <recent name="D:\vue\vue-reader\src\assets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sync\我的坚果云\vue\vue-reader\screen" />
+      <recent name="D:\Sync\我的坚果云\vue\vue-reader\src\components\rate" />
+      <recent name="D:\Sync\我的坚果云\vue\vue-reader\static\data" />
+      <recent name="F:\vue\vue-reader\src\assets\images" />
+      <recent name="F:\vue\vue-reader\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -814,7 +1236,11 @@
       <workItem from="1499085853054" duration="3827000" />
       <workItem from="1499130828810" duration="1944000" />
       <workItem from="1499173200190" duration="7173000" />
-      <workItem from="1499308557009" duration="35406000" />
+      <workItem from="1499308557009" duration="38713000" />
+      <workItem from="1499518793413" duration="265000" />
+      <workItem from="1499519091875" duration="252000" />
+      <workItem from="1499519372760" duration="89000" />
+      <workItem from="1499519490065" duration="1445000" />
     </task>
     <task id="LOCAL-00001" summary="修改查询参数">
       <created>1499265058775</created>
@@ -851,11 +1277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499439449448</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改动画">
+      <created>1499441066140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1499441066140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196393000" />
+    <option name="totallyTimeSpent" value="201751000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -867,25 +1300,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14330874" sideWeight="0.49485862" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14330874" sideWeight="0.49485862" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18438178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14208242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15595363" sideWeight="0.5051414" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -919,7 +1352,8 @@
     <MESSAGE value="修改优化" />
     <MESSAGE value="保存与读信息" />
     <MESSAGE value="loading组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="loading组件" />
+    <MESSAGE value="修改动画" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改动画" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -928,85 +1362,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/data/book9/chapter1.json" />
-    <entry file="file://$PROJECT_DIR$/static/data/book10/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="14" lean-forward="false" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book11/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book12/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book13/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/data/book8/chapter1.json" />
-    <entry file="file://$PROJECT_DIR$/static/data/book15/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book16/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book17/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="65" lean-forward="false" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book18/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="33" lean-forward="false" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book19/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="57" lean-forward="false" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book20/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="36" column="49" lean-forward="false" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/data/book14/chapter1.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="19" lean-forward="false" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/book15/chapter1.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/book16/chapter1.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/book17/chapter1.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/book18/chapter1.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/book19/chapter1.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/book20/chapter1.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/book14/chapter1.json" />
     <entry file="file://$PROJECT_DIR$/dist/index.html" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1049,15 +1412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1065,31 +1419,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/unique.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/unique.js" />
     <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-66">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,7 +1434,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1105,20 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#140#161#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/js/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,10 +1453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="e#945#1058#0" expanded="false" />
-            <element signature="e#1073#1486#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,31 +1460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
           <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/mutations-types.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="4" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Cover.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1174,7 +1467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1182,9 +1474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,49 +1481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding>
-            <element signature="n#script#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="45" column="45" lean-forward="true" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-          <folding>
-            <element signature="n#nav#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#1622#1647#0" expanded="true" />
-            <element signature="e#1912#2262#0" expanded="false" />
-            <element signature="e#3651#3862#0" expanded="false" />
-            <element signature="e#4222#4762#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/local.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1242,82 +1488,151 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="83" column="9" lean-forward="true" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="45" column="2" lean-forward="false" selection-start-line="45" selection-start-column="2" selection-end-line="45" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.0168bf7e4b04b660d057.js" />
+    <entry file="file://$PROJECT_DIR$/src/store/mutations-types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/local.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="2" lean-forward="false" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/FontNav/FontNav.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="41" column="58" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="81" column="36" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding>
-            <element signature="e#371#861#0" expanded="false" />
-            <element signature="e#612#857#0" expanded="false" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Reader.vue">
+    <entry file="file://$PROJECT_DIR$/src/store/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2134">
-          <caret line="97" column="61" lean-forward="true" selection-start-line="97" selection-start-column="61" selection-end-line="97" selection-end-column="61" />
-          <folding>
-            <element signature="e#1099#1120#0" expanded="true" />
-            <marker date="1499440406529" expanded="false" signature="3686:4549" ph="{...}" />
-            <marker date="1499440406529" expanded="false" signature="6340:7594" ph="{...}" />
-            <marker date="1499440406529" expanded="false" signature="7611:7646" ph="{...}" />
-            <marker date="1499440406529" expanded="false" signature="7674:7734" ph="{...}" />
-            <marker date="1499440406529" expanded="false" signature="7762:7822" ph="{...}" />
-            <marker date="1499440406529" expanded="false" signature="7850:7910" ph="{...}" />
-            <marker date="1499440406529" expanded="false" signature="7938:7998" ph="{...}" />
-            <marker date="1499440406529" expanded="false" signature="8026:8086" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BookDetail.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1133">
-          <caret line="108" column="25" lean-forward="false" selection-start-line="108" selection-start-column="25" selection-end-line="108" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#2183#2212#0" expanded="true" />
-            <element signature="e#2319#2366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ListPanel/ListPanel.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        <state relative-caret-position="726">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="71" lean-forward="true" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Category.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-          <folding>
-            <element signature="n#router-link#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="n#router-link#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#1070#1095#0" expanded="true" />
-            <element signature="e#1634#1714#0" expanded="false" />
-            <element signature="e#1917#2321#0" expanded="false" />
-            <element signature="e#2450#2774#0" expanded="false" />
-            <element signature="e#2793#4445#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Cover.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Similar.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#398#451#0" expanded="false" />
-            <element signature="e#413#445#0" expanded="false" />
-            <element signature="e#464#538#0" expanded="false" />
-            <element signature="e#554#583#0" expanded="false" />
-            <element signature="e#827#927#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Reader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="142" column="10" lean-forward="false" selection-start-line="142" selection-start-column="10" selection-end-line="142" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BookDetail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="88" column="36" lean-forward="false" selection-start-line="88" selection-start-column="36" selection-end-line="88" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ListPanel/ListPanel.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/sprite@2x.0.50.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/sprite.0.50.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -39,8 +39,6 @@
   import Cover from './Cover.vue'
   import Loading from './Loading/Loading.vue'
 
-  const api = 'http://localhost:3333'
-
   export default {
     data() {
       return {
@@ -62,9 +60,11 @@
       Loading
     },
     created() {
+      //判断本地是否存储了阅读器文字大小
       if (localEvent.StorageGetter('fz_size')) {
         this.$store.state.fz_size = localEvent.StorageGetter('fz_size')
       }
+      //判断本地是否存储了阅读器主题色
       if (localEvent.StorageGetter('bg_color')) {
         this.$store.state.bg_color = localEvent.StorageGetter('bg_color')
       }
@@ -95,20 +95,22 @@
       }
     },
     mounted() {
+      //因为要获取dom元素，所以不能放到created中
       this.$refs.fz_size.style.fontSize = this.fz_size + 'px'
     },
     methods: {
+      //切换上下工具栏，如果字体面板显示点击也关闭
       clickBar() {
         this.$store.dispatch('toggleBar')
         this.$store.state.font_panel = false
       },
+      //向上翻页
       pageUp() {
-        //        document.body.scrollTop -= this.windowHeight - 55
         let target = document.body.scrollTop - window.screen.height - 80
         this.startScroll(target, -20)
       },
+      //向下翻页
       pageDown() {
-        //        document.body.scrollTop += this.windowHeight - 55
         let target = document.body.scrollTop + window.screen.height - 80
         this.startScroll(target, 20)
       },
@@ -121,8 +123,6 @@
             }
             if (document.body.scrollTop > target || document.body.scrollTop + window.screen.height >= document.body.scrollHeight) {
               clearInterval(times)
-              //              console.log(document.body.scrollTop)
-              //              debugger
             }
           } else {
             if (document.body.scrollTop >= target) {
@@ -130,15 +130,14 @@
             }
             if (document.body.scrollTop < target || document.body.scrollTop <= 0) {
               clearInterval(times)
-              //              console.log(document.body.scrollTop)
             }
           }
         }, 1)
       },
       getData(id, chapter) {
         this.loading = true
-        axios.get(`${api}/book?book=${id}&id=${chapter}`).then((data) => {
-          this.loading = false
+        axios.get(`${this.common.api}/book?book=${id}&id=${chapter}`).then((data) => {
+          this.loading = false  //获取完毕后隐藏动画
           this.title = data.data.title
           this.content = data.data.content.split('-')
         })
@@ -151,6 +150,7 @@
           document.body.scrollTop = 0
         }, 300)
       },
+      //更换章节时保存阅读进度到localStorage
       nextChapter() {
         this.$store.dispatch('nextChapter', 50)
         this.saveBooksInfo()
@@ -161,7 +161,6 @@
       saveBooksInfo() {
         //可用localStorage保存每本小说阅读进度
         let id = this.$route.params.id
-
         this.booksReadInfo[id] = {
           book: id,
           chapter: this.curChapter
@@ -179,14 +178,16 @@
     },
     computed: {
       ...mapState([
-        'font_panel', 'chapterData', 'bg_color', 'fz_size', 'bg_night', 'curChapter', 'windowHeight', 'list_panel', 'curBookDetailId'
+        'font_panel', 'bg_color', 'fz_size', 'bg_night', 'curChapter', 'windowHeight', 'list_panel'
       ])
     },
     watch: {
+      //监听fz_size的值更改背景色
       fz_size(val, oldVal) {
         this.$refs.fz_size.style.fontSize = val + 'px'
         localEvent.StorageSetter('fz_size', val)
       },
+      //监听当前章节的改变，保存到本地并获取数据
       curChapter(val, oldVal) {
         localEvent.StorageSetter('cur_chapter', val)
         this.saveBooksInfo()

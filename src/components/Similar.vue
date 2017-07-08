@@ -10,7 +10,6 @@
 <script type="text/ecmascript-6">
   import axios from 'axios'
   import {mapState} from 'vuex'
-  import api from '@/assets/js/api'
 
   export default {
     data() {
@@ -32,7 +31,7 @@
     },
     methods: {
       getBookDetail(id) {
-        axios.get(`${api}/booklist?id=${id}`).then((res) => {
+        axios.get(`${this.common.api}/booklist?id=${id}`).then((res) => {
           this.bookDetail = res.data
         })
       },

@@ -6,7 +6,8 @@ export default {
     Vue.prototype.common = {
       defaultImage(e) {
         e.target.src = 'http://www.zwdu.com/files/article/image/20/20962/20962s.jpg'
-      }
+      },
+      api: 'http://39.108.14.248:3333'
     }
   }
 }

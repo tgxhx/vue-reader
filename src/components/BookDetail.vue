@@ -66,7 +66,6 @@
   import {mapState} from 'vuex'
   import axios from 'axios'
   import Similar from './Similar.vue'
-  const api = 'http://localhost:3333'
   import defaultImage from '@/assets/js/utils.js'
   import Rate from '@/components/rate/rate'
   import Loading from './Loading/Loading.vue'
@@ -87,19 +86,21 @@
     methods: {
       getBookDetail(bookId) {
         this.loading = true
-        axios.get(`${api}/booklist?id=${bookId}`).then((res) => {
-          this.loading = false
-          this.showmore = false
+        axios.get(`${this.common.api}/booklist?id=${bookId}`).then((res) => {
+          this.loading = false  //获取数据完成后隐藏loading
+          this.showmore = false  //获取数据让介绍最多显示5行
           this.bookDetail = res.data
           this.likes = res.data.like.split('-')
         })
       },
+      //打开书籍
       openBook() {
         this.$store.state.bar = false
       },
       back() {
         this.$router.go(-1)
       },
+      //图片加载失败是使用默认图片
       loadImage(e) {
         this.common.defaultImage(e)
       }
@@ -111,6 +112,7 @@
     },
     components: {Similar, Rate, Loading},
     watch: {
+      //监听路由，点击底部喜欢的书籍路由会改变，重新获取数据
       $route(to, from) {
         this.getBookDetail(to.params.id)
       }

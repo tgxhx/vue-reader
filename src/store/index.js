@@ -13,11 +13,9 @@ const state = {
   bg_color: 1,
   bg_night: false,
   fz_size: 18,
-  // chapterData: {},
   curChapter: 1,
   windowHeight: '',
   list_panel: false,
-  // bookDetail: {},
   curBookDetailId: 1,
   curBookContentId: 1,
 }

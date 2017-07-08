@@ -43,9 +43,6 @@ export default {
   [types.SHOW_BOOK_DETAIL] (state, obj) {
     state.bookDetail = obj
   },
-  [types.BOOK_CATEGORY] (state, num) {
-    state.bookCategory = num
-  },
   [types.CUR_CHAPTER](state, num) {
     state.curChapter = num
   }

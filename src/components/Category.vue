@@ -35,7 +35,6 @@
 <script type="text/ecmascript-6">
   import axios from 'axios'
   import {mapState} from 'vuex'
-  import api from '@/assets/js/api'
   import Loading from './Loading/Loading.vue'
 
   export default {
@@ -51,7 +50,7 @@
     methods: {
       getCategory(type) {
         this.loading = true
-        axios.get(`${api}/type?type=${type}`).then(res => {
+        axios.get(`${this.common.api}/type?type=${type}`).then(res => {
           this.loading = false
           this.categoryList = res.data
         })

@@ -33,11 +33,13 @@
       ])
     },
     methods: {
+      //点击修改bg_color，父组件可根据bg_color的值更改自定义属性bg_color，达到修改背景色的目的
       changeColor(index) {
         this.now_color = index
         this.$store.state.bg_color = index + 1
         localEvent.StorageSetter('bg_color', index + 1)
       },
+      //加减字体需要直接操作dom元素的字体大小，在子组件不好操作，所以在父组件监听fz_size的值再更改
       add() {
         this.$store.dispatch('fzSizeAdd')
       },

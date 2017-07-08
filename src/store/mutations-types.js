@@ -18,7 +18,5 @@ export const NEXT_CHAPTER = 'NEXT_CHAPTER'
 export const CHOOSE_BOOK = 'CHOOSE_BOOK'
 //跳转书籍详情
 export const SHOW_BOOK_DETAIL = 'SHOW_BOOK_DETAIL'
-//分类页类型数字
-export const BOOK_CATEGORY = 'BOOK_CATEGORY'
 //当前章节
 export const CUR_CHAPTER = 'CUR_CHAPTER'
