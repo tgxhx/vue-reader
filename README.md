@@ -1,4 +1,4 @@
-# vue+nodejs+mysql的移动书城
+# 基于vue+express+nodejs爬虫的移动书城
 
 > 技术栈：vue + vue-router + vuex + webpack + axios + less + flex + express + nodejs + mysql + localStorage
 
