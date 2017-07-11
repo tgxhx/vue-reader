@@ -95,8 +95,11 @@
         if (!value) return ''
         var arr = []
         value.forEach((item, index) => {
-          if (index % 2 == 1) {
-            arr.push(item)
+          //简单更改下首页加载数据太多,可自行修改
+          if (index < 20) {
+            if (index % 2 == 1) {
+              arr.push(item)
+            }
           }
         })
         return arr
@@ -105,8 +108,11 @@
         if (!value) return ''
         var arr = []
         value.forEach((item, index) => {
-          if (index % 2 == 0) {
-            arr.push(item)
+          //简单更改下首页加载数据太多,可自行修改
+          if (index < 20) {
+            if (index % 2 == 0) {
+              arr.push(item)
+            }
           }
         })
         return arr
@@ -115,8 +121,11 @@
         if (!value) return ''
         var arr = []
         value.forEach((item, index) => {
-          if (index % 3 == 2) {
-            arr.push(item)
+          //简单更改下首页加载数据太多,可自行修改
+          if (index < 20) {
+            if (index % 3 == 2) {
+              arr.push(item)
+            }
           }
         })
         return arr
