@@ -53,7 +53,7 @@
           <h3 class="like-title">喜欢本书的人也喜欢</h3>
           <ul class="like-list">
             <li v-for="(item,index) in likes">
-              <similar :like="item"></similar>
+              <similar :like="item" :key="index"></similar>
             </li>
           </ul>
         </div>
