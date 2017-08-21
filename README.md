@@ -1,4 +1,4 @@
-## 基于vue+express+nodejs爬虫的移动书城，另有[react版本](https://github.com/tgxhx/react-reader)
+## 基于vue+express+nodejs爬虫的移动书城
 
 > 技术栈：vue + vue-router + vuex + webpack + axios + less + flex + express + nodejs + mysql + localStorage
 
@@ -8,7 +8,7 @@
 
 > [爬虫地址](https://github.com/tgxhx/node-crawler)
 
-> 另外推荐一下自己另外一个[高仿网易云音乐](https://github.com/tgxhx/vue-music)和一个[MD风格Cnode社区](https://github.com/tgxhx/vue-md-cnode)
+> 另外推荐一下本项目的[react版本](https://github.com/tgxhx/react-reader),自己另外一个[vue高仿网易云音乐](https://github.com/tgxhx/vue-music)和一个[MD风格Cnode社区](https://github.com/tgxhx/vue-md-cnode)
 ## 使用说明
 
 ``` bash
