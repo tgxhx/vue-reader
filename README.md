@@ -2,7 +2,7 @@
 
 > 技术栈：vue + vue-router + vuex + webpack + axios + less + flex + express + nodejs + mysql + localStorage
 
-> [预览地址](http://39.108.14.248/reader)
+> [预览地址](https://xyxxxx.com/reader)
 
 > [api地址](https://github.com/tgxhx/node-book-api)
 

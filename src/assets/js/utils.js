@@ -7,9 +7,19 @@ export default {
       defaultImage(e) {
         e.target.src = 'http://www.zwdu.com/files/article/image/20/20962/20962s.jpg'
       },
-      api: 'http://39.108.14.248:3333'
+      api: 'http://127.0.0.1/book'
     }
   }
 }
+
+/*
+* nginx配置
+* http://127.0.0.1/book -> https://remove-server.com/book/
+*location /book/ {
+     rewrite /book/(.*) /book/$1 break;
+     proxy_pass https://remote-server.com;
+     proxy_redirect     off;
+		}
+ *  */
 
 
