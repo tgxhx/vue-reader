@@ -1,4 +1,4 @@
-## 基于vue+express+nodejs爬虫的移动书城
+## 基于vue+express+nodejs爬虫的移动书城 [ssr版本](https://github.com/tgxhx/vue-reader-ssr)
 
 > 技术栈：vue + vue-router + vuex + webpack + axios + less + flex + express + nodejs + mysql + localStorage
 
