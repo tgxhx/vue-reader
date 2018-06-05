@@ -4,7 +4,7 @@
       <div class="item-warp">
         <div class="icon-menu"></div>
         <div class="icon-text">
-          目录
+          目
         </div>
       </div>
     </div>
