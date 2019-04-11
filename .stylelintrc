@@ -1,0 +1,13 @@
+extends: stylelint-config-standard
+
+plugins:
+  - stylelint-no-unsupported-browser-features
+
+rules:
+  plugin/no-unsupported-browser-features: [true, {severity: warning}]
+
+  color-hex-case: lower
+  declaration-colon-newline-after: null
+  selector-list-comma-newline-after: null
+  value-list-comma-newline-after: null
+  at-rule-no-unknown: null

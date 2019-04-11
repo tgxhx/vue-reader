@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "vue-reader",
+      "script": "server/app.js",
+      "watch": false,
+      "env": {
+        "NODE_ENV": "production",
+        "PORT": 8082
+      },
+      "instances": 1,
+      "exec_mode": "cluster",
+      "out_file": "logs/pm2-out.log",
+      "error_file": "logs/pm2-error.log"
+    }
+  ]
+}

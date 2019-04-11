@@ -1,0 +1,5 @@
+{
+  "outputPath": "views",
+  "publicPath": "http://localhost:8080/",
+  "port": "8080"
+}
