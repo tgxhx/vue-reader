@@ -2,15 +2,12 @@
 
 > 技术栈：vue + vue-router + vuex + webpack + axios + less + flex + express + nodejs + mysql + localStorage
 
-> [预览地址](https://xyxxxx.com/reader)
-
-> [api地址](https://github.com/tgxhx/node-book-api)
+> [预览地址](https://vue-reader.xyxxxx.xyz)
 
 > [爬虫地址](https://github.com/tgxhx/node-crawler)
 
-> 出了个人考虑，暂时关闭了在线api接口，提供sql文件下载，包含了接口使用的数据，可直接导入mysql中，[下载地址](https://pan.baidu.com/s/1b08B3S)
+> 自用sql文件下载，包含了本项目接口使用的数据，可直接导入mysql中，[下载地址](https://pan.baidu.com/s/1b08B3S)
 
-> 另外推荐一下本项目的[react版本](https://github.com/tgxhx/react-reader),自己另外一个[vue高仿网易云音乐](https://github.com/tgxhx/vue-music)和一个[MD风格Cnode社区](https://github.com/tgxhx/vue-md-cnode)
 ## 使用说明
 
 ``` bash
@@ -20,15 +17,44 @@ git clone git@github.com:tgxhx/vue-reader.git
 # 安装依赖
 npm install
 
-# 本地开发环境 访问http://localhost:8080
-npm run dev
+# 本地开发环境，同时会启动webpack-dev-server和express服务，访问http://localhost:8080
+npm start
 
 # 构建生产
 npm run build
 
+# 分析构建文件
+npm run analyze
+
+# 部署
+sudo chmod +x docker-build.sh
+./docker-build.sh
+
 ```
 
 ## 项目说明
+
+### 2019-04-14更新
+
+最近闲下来抽时间重构了一下这个项目的架构，将对应的node服务整合了进来，并且集成了docker构建及部署。
+
+使用首先需要能连接到mysql，并先导入上面的sql文件，然后在`server`目录下创建`config/index.js`：
+
+``` javascript
+module.exports = {
+  mysql: {
+    host: 'x.x.x.x',
+    user: 'xxx',
+    password: 'xxx',
+    database: 'xxx',
+    port: 3306,
+  },
+};
+
+```
+
+=============分隔线===============
+
 该项目很早以前就开始写了，算是用vue写的第一个项目，所以代码还是有不少问题，但是应该很符合vue入门使用者的写法，比如直接修改state：this.$store.state.xx = xx。
 
 最开始是用jQuery写了阅读器部分，后来为了学习，就尝试用vue重构，学习了整个vue技术栈。
@@ -67,3 +93,4 @@ vuex采用分离的写法，state、mutation、action分开写，方便维护。
 ![](screen/1.png)![](screen/2.png)
 ![](screen/3.png)![](screen/4.png)
 ![](screen/5.png)
+

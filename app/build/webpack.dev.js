@@ -37,13 +37,19 @@ module.exports = merge(baseConfig, {
     clientLogLevel: 'warning',
     inline: true,
     stats: 'errors-only',
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Headers': '*',
+    },
     proxy: {
       '/api': `http://localhost:${serverConfig.port}`,
     },
   },
   plugins: [
     new HtmlWebpackPlugin({
+      filename: 'index.ejs',
       template: srcPath('../index.html'),
+      favicon: srcPath('../favicon.ico'),
       alwaysWriteToDisk: true,
     }),
     new HtmlWebpackHarddiskPlugin(),

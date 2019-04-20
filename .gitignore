@@ -1,11 +1,10 @@
 .DS_Store
 node_modules/
-dist/
 /server/config
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-static/data
+package-lock.json
 /views
 logs/
 .idea/

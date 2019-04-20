@@ -5,14 +5,30 @@
   "author": "tgxh2020 <tgxh2020@gmail.com>",
   "private": true,
   "scripts": {
+    "postinstall": "cd server && npm i && cd ../app && npm i",
     "start": "cd app && cross-env NODE_ENV=development npm start",
-    "start-server": "cd server && cross-env NODE_ENV=development supervisor app.js",
-    "build": "cd app && cross-env NODE_ENV=production npm run build",
-    "analyze": "cd app && cross-env NODE_ENV=production ANALYZE=true npm run build",
-    "prod": "pm2 start ecosystem.config.json",
-    "deploy": "npm run build && npm run prod"
+    "start-server": "rimraf views && nodemon",
+    "build": "rimraf views && cd app && cross-env NODE_ENV=production npm run build",
+    "analyze": "cd app && cross-env NODE_ENV=production ANALYZE=true npm run build"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "rimraf": "^2.6.0",
+    "nodemon": "^1.18.11"
+  },
+  "nodemonConfig": {
+    "name": "vue-reader",
+    "verbose": true,
+    "ext": "js",
+    "watch": [
+      "server"
+    ],
+    "ignore": [
+      "node_modules"
+    ],
+    "exec": "node --inspect=8888 server/app.js",
+    "env": {
+      "NODE_ENV": "development"
+    }
   }
 }

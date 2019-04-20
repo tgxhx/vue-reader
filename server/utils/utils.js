@@ -14,16 +14,19 @@ const pool = mysql.createPool({
 
 const query = function(sql, option, callback) {
   pool.getConnection(function(err, connection) {
+    if (err) console.error(err)
     // Use the connection
-    connection.query(sql, option, function(error, results, fields) {
-      // And done with the connection.
-      connection.release();
-
-      // Handle error after the release.
-      if (error) throw error;
-      callback(err, results, fields);
-      // Don't use the connection here, it has been returned to the pool.
-    });
+    if (connection) {
+      connection.query(sql, option, function(error, results, fields) {
+        // And done with the connection.
+        connection.release();
+        
+        // Handle error after the release.
+        if (error) throw error;
+        callback(err, results, fields);
+        // Don't use the connection here, it has been returned to the pool.
+      });
+    }
   });
 };
 

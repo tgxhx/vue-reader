@@ -51,7 +51,7 @@ export default {
       type: [
         {
           num: 1,
-          word: '玄幻1',
+          word: '玄幻',
         },
         {
           num: 2,
@@ -204,7 +204,6 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #f00;
     > i {
       width: 24px;
       height: 24px;

@@ -53,8 +53,9 @@ const config = merge(baseConfig, {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      filename: 'index.html',
+      filename: 'index.ejs',
       template: srcPath('../index.html'),
+      favicon: srcPath('../favicon.ico'),
       minify: {
         removeComments: true,
         collapseWhitespace: true,

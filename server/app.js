@@ -1,5 +1,5 @@
 /**
- * Created by tgxhx on 2017/7/331112212.
+ * Update by tgxhx on 2019/04/13.
  */
 const path = require('path');
 const express = require('express');
@@ -19,6 +19,7 @@ function init(app) {
   app.use(express.static(views));
 
   app.get('/*', (req, res, next) => {
+    console.log(req.url)
     if (/.(js|css)$/.test(req.url)) {
       res.set('Cache-Control', 'public, max-age=31536000, immutable');
     }
@@ -27,10 +28,6 @@ function init(app) {
 
   app.get('/', function(req, res) {
     res.render('index');
-  });
-
-  app.get('/test', function(req, res) {
-    res.send('index11');
   });
 
   app.get('/api/book', require('./router/book'));
@@ -44,10 +41,8 @@ function init(app) {
   const port = process.env.PORT || serverConfig.port;
 
   app.listen(port, () => {
-    console.log(`server 1 running at port ${port}`);
+    console.log(`server running at port ${port}`);
   });
 }
 
 init(app);
-
-module.exports = isDev ? init : {};
