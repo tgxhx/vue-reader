@@ -11,7 +11,7 @@
   "dependencies": {
     "animate.css": "^3.5.2",
     "ansi-regex": "^2.1.1",
-    "axios": "^0.16.1",
+    "axios": "^0.19.0",
     "find-cache-dir": "^0.1.1",
     "mint-ui": "^2.2.6",
     "vue": "^2.6.10",
