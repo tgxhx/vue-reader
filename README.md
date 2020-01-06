@@ -6,7 +6,7 @@
 
 > [爬虫地址](https://github.com/tgxhx/node-crawler)
 
-> 自用sql文件下载，包含了本项目接口使用的数据，可直接导入mysql中，[下载地址](https://pan.baidu.com/s/1b08B3S)
+> 自用sql文件下载，包含了本项目接口使用的数据，可直接导入mysql中，[下载地址(百度网盘)](https://pan.baidu.com/s/1b08B3S)，[下载地址(Google Drive)](https://drive.google.com/open?id=17jlzFj0kJIhEtAllzeVbZVzXuQi7O8bm)
 
 ## 使用说明
 
