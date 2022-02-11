@@ -8,7 +8,7 @@ COPY server /app/server
 COPY views /app/views
 COPY ecosystem.config.json  /app
 
-RUN npm config set registry https://registry.npm.taobao.org
+RUN npm config set registry https://registry.npmmirror.com
 
 RUN npm install pm2 -g
 
